@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
 import axios from "axios";
-import EditTodos from "./editTodos";
 
 const InputTodo = () => {
   const [description, setDescription] = useState("");
